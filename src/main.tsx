@@ -1,9 +1,10 @@
 import { StrictMode } from 'react';
 import ReactDom from 'react-dom/client';
 import './index.css';
+import Router from './router';
 
 ReactDom.createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1 className="text-6xl">Hola mundo</h1>
+    <Router />
   </StrictMode>,
 )

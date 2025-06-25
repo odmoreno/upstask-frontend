@@ -1,0 +1,4 @@
+npm install -D tailwindcss postcss autoprefixer
+  npm i react-router-dom
+ npm i -D @types/node
+ npm i react-hook-form
